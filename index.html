@@ -21,11 +21,44 @@ body{background-image:url("db.jpg");
     
   left: 10%;
 }
+
+@media only screen and (max-width:980px) { 
+  #md {width:100%;}
+  
+
+  nav{margin-right: 32px;}
+
+}
+
+@media only screen and (max-width:768px) { 
+  #md {
+    width:100%;
+  }
+  nav{margin-right: 32px;}
+  
+
+}
+@media only screen and (max-width:640px) { 
+  #md {width:100%;}
+  
+
+
+
+
+
+
+
+
+
+
+
+
     </style>
 
 </head>
 
 <body>
+    <div id="md">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand bg-info h4 px-5 pb-2 text-white" href="#">Helen Khodabakhsh</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -74,6 +107,7 @@ body{background-image:url("db.jpg");
         Copyright &copy;
 
     </footer>
+    </div>
 
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
